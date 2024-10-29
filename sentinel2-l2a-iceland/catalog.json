@@ -1,0 +1,25 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "example-catalogue",
+  "title": "Example Catalog",
+  "description": "A static STAC catalog with example data from Sentinel2 encoded as COGs over the area of Iceland.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel-2-l2a/collection.json",
+      "type": "application/json",
+      "title": "Sentinel2-L2A-Iceland"
+    },
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    }
+  ]
+}
